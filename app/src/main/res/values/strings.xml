@@ -3,4 +3,5 @@
     <string name="proced">Proced</string>
     <string name="judul">Form Biodata</string>
     <string name="subJudul">Silahkan isi form di bawah ini</string>
+    <string name="labelNamaDepan">Nama Depan</string>
 </resources>
