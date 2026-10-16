@@ -91,6 +91,14 @@ fun page(modifier: Modifier){
                     )
                     Row() {
                         OutlinedTextField(
+                            value = textNamaDepan,
+                            onValueChange = { textNamaDepan = it },
+                            label = { Text(stringResource(R.string.labelNamaDepan)) },
+                        )
+                        OutlinedTextField(
+                            value = textNamaBelakang,
+                            onValueChange = { textNamaBelakang = it },
+                            label = { Text(stringResource(R.string.labelNamaBelakang)) },
                         )
                     }
                 }
