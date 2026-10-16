@@ -37,6 +37,7 @@ fun page(modifier: Modifier){
     var textNamaBelakang by remember { mutableStateOf("") }
     var textEmail by remember { mutableStateOf("") }
     var textTglLahir by remember { mutableStateOf("") }
+    var textExperince by remember { mutableStateOf("") }
 
     Box(modifier = Modifier
         .fillMaxSize()
