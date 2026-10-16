@@ -35,6 +35,7 @@ import androidx.compose.runtime.setValue
 fun page(modifier: Modifier){
     var textNamaDepan by remember { mutableStateOf("") }
     var textNamaBelakang by remember { mutableStateOf("") }
+    var textEmail by remember { mutableStateOf("") }
 
     Box(modifier = Modifier
         .fillMaxSize()
