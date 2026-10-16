@@ -40,6 +40,15 @@ fun page(modifier: Modifier){
     var textExperince by remember { mutableStateOf("") }
     var textSkill by remember { mutableStateOf("") }
 
+    var email by remember { mutableStateOf("") }
+    var NamaDepan by remember { mutableStateOf("") }
+    var NamaBelakang by remember { mutableStateOf("") }
+    var TglLahir by remember { mutableStateOf("") }
+    var selectedExperince by remember { mutableStateOf("") }
+    var selectedSkill by remember { mutableStateOf("") }
+
+    val skill = listOf<String>("Web Dev", "Mobile Dev", "AI Dev")
+    val experience = listOf<String>("Junior", "Senior")
     Box(modifier = Modifier
         .fillMaxSize()
     ){
