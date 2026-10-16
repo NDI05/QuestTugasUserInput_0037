@@ -59,6 +59,20 @@ fun page(modifier: Modifier){
                         ),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
+                    Text(
+                        stringResource(R.string.judul),
+                        fontSize = 30.sp,
+                        fontWeight = FontWeight.Black
+                    )
+                    Text(
+                        stringResource(R.string.subJudul),
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Normal
+                    )
+                    Row() {
+                        OutlinedTextField(
+                        )
+                    }
                 }
             }
         }
