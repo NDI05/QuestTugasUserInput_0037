@@ -7,4 +7,6 @@
     <string name="labelNamaBelakang">Nama Belakang</string>
     <string name="labelEmail">Email</string>
     <string name="labelSkill">Silahkan Pilih Skill Anda</string>
+    <string name="labelTglLahir">Tgl Lahir</string>
+    <string name="labelExperience">Experince</string>
 </resources>
