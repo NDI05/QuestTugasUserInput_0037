@@ -38,7 +38,10 @@ fun page(modifier: Modifier){
                 .background(color = Color.White,
                         shape = RoundedCornerShape(topStart = 60.dp, topEnd = 60.dp)),
         ) {
+            ElevatedCard(
+            ) {
 
+            }
         }
     }
 }
